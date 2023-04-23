@@ -1,0 +1,329 @@
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+    
+  }
+ 
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .mobile-menu-nav {
+    display: none;
+  }
+  .mobl-menu-open {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    gap: 40px;
+  }
+
+  .menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-section);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .menu-link:hover,
+  .menu-link:focus {
+    color: var(--accent-color);
+  }
+  .address-header {
+    display: flex;
+    font-style: normal;
+  }
+  /* .address-header:not(:last-child){
+  margin-bottom: 12px; */
+
+  /* .menu-item:not(:last-child){
+margin-bottom: 12px;
+} */
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+  .contact-email-phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .contact-email-phone:hover,
+  .contact-email-phone:focus {
+    color: var(--accent-color);
+  }
+  .logo {
+    margin-right: 120px;
+  }
+
+  .current {
+    position: relative;
+  }
+  .current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    margin-top: 54px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--primary-brand);
+  }
+
+  /* --------Hero-------- */
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab1x.jpg);
+    max-width: 768px;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-tab2x.jpg);
+  }
+}
+  
+  .hero {
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+
+  /* ---------description of functions ---------*/
+  .about-us {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .functions-container {
+    gap: 72px 24px;
+  }
+
+  .criteria {
+    text-align: left;
+  }
+/* ---------Our Team ---------*/
+  .team-container {
+    gap: 64px 24px;
+  }
+  /* -------Customers------ */
+  .customers-list {
+    gap: 72px 24px;
+  }
+  .customers-item {
+    width: 168px;
+  }
+  /* -------Footer  -------*/
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .logo-footer {
+    display: flex;
+  }
+  .footer-container {
+    display: flex;
+    width: 552px;
+    gap: 72px 24px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer-social-media {
+    display: flex;
+  }
+  .footer-subscribe {
+    gap: 24px;
+  }
+  .subscribe-form-footer {
+    display: flex;
+  }
+  .subscribe-input {
+    width: 264px;
+  }
+  .logo-footer-div {
+    margin-bottom: 0px;
+  }
+
+  .social-link-menu {
+    margin-bottom: 0px;
+  }
+
+  .subscribe-title {
+    text-align: left;
+  }
+  .subscribe-btn {
+    display: flex;
+    margin-top: 0;
+  }
+
+.modal {
+  width: 408px;
+  min-height: 586px;
+}
+/* --------Portfolio -------- */
+.portfolio-section {
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+.container-button {
+  gap: 24px;
+  margin-bottom: 48px;
+  justify-content:center;
+  margin-bottom: 64px;
+  width: 100%
+}
+.portfolio-btn{
+  padding: 12px 24px;
+}
+.container-gallery{
+  gap: 72px 24px;
+}
+}
+
+
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding: 0 15px;
+  }
+  .logo {
+    margin-right: 76px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .current::after {
+    margin-top: 44px;
+  }
+
+  /* --------Hero-------- */
+
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office1x.jpg);
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office2x.jpg);
+  }
+}
+  .hero {
+    margin-bottom: 48px;
+  }
+  /* ---------description of functions ---------*/
+  .functions-container {
+    gap: 24px;
+  }
+  .criteria-functions {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .about-us {
+    width: calc((100% - 72px) / 4);
+  
+  }
+  .functions-list {
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+
+  .criteria {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  .functions {
+    font-weight: 400;
+  }
+
+  /* ---------Our Team ---------*/
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-container {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  /* -------Customers------ */
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  /* -------Footer------- */
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-container {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .modal {
+    min-height: 584px;
+  }
+  /* --------Portfolio button-------- */
+  .portfolio-section {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  .container-gallery{
+    gap: 48px 24px;
+  }
+  
+}
